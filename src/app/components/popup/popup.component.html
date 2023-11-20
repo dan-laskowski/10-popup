@@ -1,0 +1,5 @@
+<section class="popup-backdrop" (click)="onClose()">
+  <div class="popup-wrapper" (click)="$event.stopPropagation()">
+    <ng-content />
+  </div>
+</section>
